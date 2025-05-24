@@ -2,7 +2,7 @@
 import React from 'react';
 import HeaderPagina from '../components/HeaderPagina';
 
-const iniciarsesion = () => {
+const IniciarSesion = () => {
   return (
     <div className="min-h-screen bg-gray-50 px-4 pt-10">
       <HeaderPagina titulo="Home" />
@@ -15,4 +15,4 @@ const iniciarsesion = () => {
   );
 };
 
-export default iniciarsesion;
+export default IniciarSesion;
