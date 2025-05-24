@@ -2,7 +2,7 @@
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Inicio from './pages/Inicio';
+import Inicio from './pages/inicio';
 import iniciarsesion from './pages/iniciarsesion';
 import registrarse from './pages/registrarse';
 import miperfil from './pages/miperfil';

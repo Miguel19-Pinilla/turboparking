@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import principal from "./assets/principal.png";
+import principal from "../assets/principal.png";
 
 function Home() {
   return (
