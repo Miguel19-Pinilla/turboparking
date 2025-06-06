@@ -11,10 +11,10 @@ module.exports = {
   },
   plugins: [
     // Si estás usando DaisyUI, DESCOMENTA la siguiente línea:
-    // require('daisyui'),
+    require('daisyui'), // <--- ESTA LÍNEA DEBE ESTAR DESCOMENTADA
   ],
   // Si estás usando DaisyUI, DESCOMENTA y configura la siguiente sección:
-  // daisyui: {
-  //   themes: ["light", "dark", "cupcake", "dracula", "night"], // Puedes agregar o quitar temas aquí
-  // },
+  daisyui: { // <--- ESTA SECCIÓN DEBE ESTAR DESCOMENTADA
+    themes: ["light", "dark", "cupcake", "dracula", "night"], // Puedes agregar o quitar temas aquí
+  },
 };
